@@ -45,6 +45,11 @@ body {
 
     }
 
+    .mlh-icon {
+      width:30px;
+      padding-left: 10px;
+    }
+
   .navbar .rightSide {
     flex:50%;
     display:flex;

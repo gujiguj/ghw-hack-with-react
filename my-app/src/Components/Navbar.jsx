@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../stylesheets/App.css';
+import GHWinitGirl from '../assets/cutemlhgirl.png';
 
 // function should be same spelling as the component name
 function NavBar() {
@@ -15,6 +16,7 @@ function NavBar() {
                     <a href="/">Home</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
+                    <img className="mlh-icon" src={GHWinitGirl} alt="GHWinitGirl"></img>
                 </div>
                 <button onClick={() => setHideLinks(!hideLinks)}>Open</button>
             </div>
